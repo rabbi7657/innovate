@@ -600,3 +600,51 @@ nav .nav-item a {
   margin-right: 11px;
 }
 /* =========================================also like css end========================================== */
+/* =========================================footer part css start========================================== */
+footer {
+  background-color: #48409c;
+  padding: 140px 0px 57px 0px;
+}
+.footer_custom_flex {
+  display: flex;
+  column-gap: 140px;
+}
+.footer_description p {
+  color: #fefefe;
+  width: 449px;
+  margin-top: 44px;
+}
+.footer_item h6 {
+  color: #fefefe;
+  margin-bottom: 0px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.footer_item ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+.footer_item ul li a {
+  color: #fefefe;
+}
+.footer_copyright {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_copyright_left h5 {
+  color: #fefefe;
+  width: 373px;
+  margin-bottom: 0px;
+}
+.footer_copyrigt_right ul {
+  display: flex;
+  column-gap: 60px;
+}
+.footer_copyrigt_right ul li a {
+  color: #fefefe;
+  width: 111px;
+  margin-bottom: 0px;
+}
+/* =========================================footer part css end========================================== */

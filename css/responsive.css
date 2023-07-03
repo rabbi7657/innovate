@@ -1,0 +1,22 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  /* ================navbar============== */
+  nav ul {
+    border: 1px solid #a53dff;
+    margin-top: 10px;
+  }
+  nav ul li {
+    border-bottom: 1px solid #a53dff;
+    width: 100%;
+    margin: auto;
+  }
+  nav ul li:last-child {
+    margin-right: 0px;
+    border-bottom: none;
+  }
+  nav ul li a {
+    text-align: center;
+  }
+  nav .custom-btn {
+    margin-top: 10px;
+  }
+}
