@@ -698,6 +698,11 @@ footer {
   width: 449px;
   margin-top: 44px;
 }
+.footer_content1 {
+  display: flex;
+  flex-direction: row;
+  column-gap: 100px;
+}
 .footer_item h6 {
   color: #fefefe;
   margin-bottom: 0px;
