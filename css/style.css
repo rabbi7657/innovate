@@ -91,6 +91,7 @@ nav {
   position: absolute !important;
   width: 100%;
   padding: 18px 0px;
+  z-index: 3;
 }
 nav ul {
   column-gap: 40px;
@@ -138,6 +139,8 @@ nav .nav-item a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  z-index: 2;
+  position: relative;
 }
 .banner_overlay {
   width: 100%;
@@ -194,7 +197,73 @@ nav .nav-item a {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 500px;
+  height: 704px;
+  position: relative;
+}
+.success_rate_images {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  justify-content: center;
+  z-index: 1;
+  position: absolute;
+  top: -106px;
+}
+.success_rate_img1 img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.success_rate_img2 img {
+  margin-top: -34px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.success_rate_img3 img {
+  margin-top: 66px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.success_rate_img4 img {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.success_rate_content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  top: 540px;
+  left: -5%;
+}
+.success_rate_content_item {
+  border-right: 4px solid #d7d9dc;
+  text-align: center;
+  padding: 0px 30px;
+  text-transform: capitalize;
+}
+.success_rate_content_item:last-child {
+  border-right: 0px;
+}
+.success_rate_content_item h2 {
+  color: #1bbf00;
+  line-height: 68px;
+  margin-bottom: 24px;
+}
+.success_rate_content_item h4 {
+  color: #141135;
+  line-height: 40px;
 }
 /* =========================================success_rate css end========================================== */
 /* =========================================Choose Us css end========================================== */
@@ -398,7 +467,7 @@ nav .nav-item a {
 .we_create_3rd_img img {
   position: absolute;
   left: 175px;
-  margin-top: 164px;
+  top: 164px;
   border: 6px solid #fff;
   border-radius: 20px;
   box-shadow: 0px 30px 60px 0px rgba(162, 169, 192, 0.25);

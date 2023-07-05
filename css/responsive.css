@@ -1,11 +1,28 @@
-@media (min-width: 320px) and (max-width: 575px) {
-  /* ================navbar============== */
+@media (min-width: 320px) and (max-width: 576px) {
+  /* ==============================custom button start==================================== */
+  .custom_btn {
+    padding: 10px 20px;
+    background-color: #1bbf00;
+    border-radius: 100px;
+    display: inline-block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
+  .custom_btn a {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  /* }=====================================custom button end */
+  /* ====================================== navbar start============================= */
   nav ul {
-    border: 1px solid #a53dff;
+    border: 1px solid #1bbf00;
     margin-top: 10px;
   }
   nav ul li {
-    border-bottom: 1px solid #a53dff;
+    border-bottom: 1px solid #1bbf00;
     width: 100%;
     margin: auto;
   }
@@ -16,7 +33,372 @@
   nav ul li a {
     text-align: center;
   }
-  nav .custom-btn {
-    margin-top: 10px;
+  .navbar_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
+  /* ====================================== navbar end ============================= */
+  /* ====================================== banner start ============================= */
+  .banner_overlay {
+    height: 100%;
+    padding-bottom: 60px;
+  }
+  .banner_heading h1 {
+    width: auto;
+    line-height: 48px;
+    margin-top: -130px;
+    font-size: 42px;
+  }
+  .banner_info p {
+    width: auto;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .banner_btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner_btn .custom_btn {
+    padding: 10px 20px;
+  }
+  .banner_btn .custom_btn a {
+    font-size: 14px;
+  }
+  .banner_custom_btn2 {
+    margin-top: 10px;
+    padding: 8px 20px;
+  }
+  .banner_custom_btn2 a {
+    font-size: 14px;
+  }
+  .banner_btn .custom-btn {
+    margin-top: -5px;
+    margin-bottom: 39px;
+  }
+  /* ====================================== banner end ============================= */
+  /* ====================================== success_rate  start ============================= */
+  .success_rate {
+    height: 1310px;
+  }
+  .success_rate_images {
+    flex-direction: column;
+    position: static;
+    margin-top: 20px;
+  }
+  .success_rate_img1 img {
+    width: 174px;
+    border: 2px solid #fff;
+  }
+  .success_rate_img2 img {
+    width: 190px;
+    border: 3px solid #fff;
+    position: relative;
+    top: -89px;
+    left: 110px;
+    border-radius: 20px;
+  }
+  .success_rate_img3 img {
+    width: 150px;
+    position: relative;
+    top: -466px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+  }
+  .success_rate_img4 img {
+    width: 150px;
+    position: relative;
+    top: -428px;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    left: 0px;
+  }
+  .success_rate_content {
+    flex-direction: column;
+    top: -362px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 24px;
+    padding: 0px;
+  }
+  .success_rate_content_item {
+    border-bottom: 4px solid #d7d9dc;
+    border-right: 0px;
+    align-items: center;
+  }
+  .success_rate_content_item:last-child {
+    border-bottom: 0px;
+  }
+  .success_rate_content_item h2 {
+    font-size: 35px;
+    margin-bottom: -14px;
+  }
+  .success_rate_content_item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* ====================================== success_rate end ============================= */
+  /* ======================================choose_us start ============================= */
+  .choose_us_item {
+    flex-direction: column;
+    width: auto;
+    padding: 20px 20px;
+  }
+  .choose_us_item img {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    margin-bottom: -5px;
+  }
+  .choose_us_item p {
+    font-size: 14px;
+    padding: 0px 0px;
+    margin-left: 0px;
+    line-height: 22px;
+    width: auto;
+  }
+  .choose_us_item:hover {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+  .choose_us_info {
+    margin-bottom: -64px;
+    margin-left: 16px;
+  }
+  .choose_us_info h2 {
+    font-size: 30px;
+    margin-top: 24px;
+    text-align: start;
+  }
+  .choose_us_info p {
+    width: auto;
+    line-height: 25px;
+    margin-top: 13px;
+    margin-bottom: 28px;
+    font-size: 14px;
+  }
+  .choose_us_btn .custom-btn a {
+    font-size: 14px;
+  }
+
+  /* ======================================choose_us end ============================= */
+  /* ====================================== we do start ============================= */
+  .we_do {
+    padding: 60px 0px;
+    width: auto;
+  }
+  .we_do_info {
+    width: auto;
+    margin-left: 20px;
+  }
+  .we_do_info h3 {
+    font-size: 36px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .we_do_info p {
+    font-size: 16px;
+    width: auto;
+    margin-bottom: 24px;
+  }
+  .we_do_btn {
+    left: 180px;
+  }
+  .we_do_custom_card {
+    width: auto;
+  }
+  .we_do_custom_card h3 {
+    font-size: 22px;
+    width: auto;
+  }
+  .we_do_custom_card p {
+    font-size: 12px;
+    width: auto;
+  }
+  /* ====================================== we do end ============================= */
+  /* ====================================== impact start ============================= */
+  .we_create {
+    height: 100%;
+    padding: 60px 0px;
+  }
+  .we_create_title h2 {
+    font-size: 30px;
+    width: auto;
+  }
+  .we_create_title p {
+    width: auto;
+    font-size: 12px;
+  }
+  .we_create_item {
+    width: auto;
+    column-gap: 20px;
+  }
+  .we_create_info h4 {
+    line-height: 0px;
+    font-size: 17px;
+    width: auto;
+  }
+  .we_create_info p {
+    width: auto;
+    line-height: 21px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .we_create_img {
+    padding-bottom: 207px;
+  }
+  .we_create_1st_img img {
+    height: 200px;
+    width: 200px;
+    border: 3px solid #fff;
+  }
+  .we_create_2nd_img img {
+    top: 190px;
+    left: 135px;
+    border: 3px solid #fff;
+  }
+  .we_create_3rd_img img {
+    left: 0px;
+    top: 275px;
+    width: 200px;
+    border: 3px solid #fff;
+  }
+  /* ====================================== impact end ============================= */
+  /* ====================================== right plan ============================= */
+  .right_plan {
+    height: 100%;
+    padding: 60px 0px;
+  }
+  .right_plan_title h2 {
+    font-size: 26px;
+    width: auto;
+    margin-bottom: 35px;
+  }
+  .right_plan_custom_card {
+    width: auto;
+  }
+  .right_plan_custom_card img {
+    width: 296px;
+  }
+  /* ====================================== right plan end ============================= */
+  /* ====================================== think start ============================= */
+  .think_about_title h5 {
+    font-size: 32px;
+  }
+  .think_about_title_content_img picture img {
+    top: 51px;
+  }
+  .think_about_title_content_item {
+    width: auto;
+    height: 361px;
+  }
+
+  .think_about_title_content_item .item_star {
+    padding-top: 65px;
+  }
+  .think_about_title_content_item p {
+    width: auto;
+    line-height: 23px;
+    padding-bottom: 30px;
+    font-size: 12px;
+  }
+  .think_about_title_content_item h6 {
+    line-height: 21px;
+    font-size: 22px;
+  }
+  .think_about_title_content_item h4 {
+    line-height: 23px;
+    font-size: 17px;
+  }
+  /* ====================================== think  end ============================= */
+  /* ====================================== like start  ============================= */
+  .like_title h5 {
+    line-height: 34px;
+    margin-top: 48px;
+    margin-bottom: 42px;
+    font-size: 36px;
+  }
+  .like_content_img {
+    display: flex;
+    justify-content: center;
+  }
+  .like_content_img picture img {
+    width: 298px;
+  }
+  .like_custom_margin {
+    margin-top: 22px;
+  }
+  .like_news_info h2 {
+    margin-right: 13px;
+  }
+  .like_news_info h3 {
+    margin-right: 3px;
+    line-height: 21px;
+    font-size: 13px;
+  }
+  .like_news_info h4 {
+    margin-right: 10px;
+    line-height: 22px;
+    font-size: 13px;
+  }
+  .like_news_info h5 {
+    margin-right: 7px;
+    line-height: 25px;
+    font-size: 13px;
+  }
+  .like_news_info h6 {
+    line-height: 24px;
+    font-size: 13px;
+  }
+  .like_content_item p {
+    line-height: 33px;
+    width: auto;
+    margin-top: 5px;
+    margin-bottom: 24px;
+    font-size: 25px;
+  }
+  /* ====================================== like  end ============================= */
+  /* ====================================== footer start  ============================= */
+  footer {
+    height: 713px;
+  }
+  .footer_content_1 {
+    padding-top: 64px;
+  }
+  .footer_content_1 p {
+    padding-top: 25px;
+    padding-bottom: 31px;
+    line-height: 169%;
+    width: auto;
+  }
+  .footer_item {
+    padding-top: 0px;
+    display: flex;
+  }
+  .footer_item .item_1 {
+    padding-right: 17px;
+  }
+  .footer_item_margin {
+    padding-left: 4px;
+  }
+  .footer_item .item_1 li {
+    padding-bottom: 14px;
+    color: #fefefe;
+    line-height: 114%;
+    text-transform: capitalize;
+    font-size: 14px;
+  }
+  .footer_policy {
+    padding-top: 0px;
+  }
+  .footer_policy h2 {
+    font-size: 16px;
+  }
+  .footer_policy h4 {
+    font-size: 16px;
+  }
+  /* ====================================== footer end ============================= */
 }
