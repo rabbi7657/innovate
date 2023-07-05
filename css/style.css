@@ -65,6 +65,7 @@
 ul,
 ol {
   list-style: none;
+  padding: 0px;
 }
 a {
   text-decoration: none;
@@ -620,13 +621,15 @@ nav .nav-item a {
   width: 416px;
   margin-bottom: 64px;
 }
+.also_like_custome_margin {
+  margin-bottom: 30px;
+}
 .also_like_img img {
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
-  margin-bottom: 27px;
 }
 .also_like_news_info {
   display: flex;
@@ -698,34 +701,36 @@ footer {
 .footer_item h6 {
   color: #fefefe;
   margin-bottom: 0px;
-  text-align: center;
+  text-align: start;
   margin-bottom: 48px;
 }
-.footer_item ul {
+.footer_item {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
 }
-.footer_item ul li a {
-  color: #fefefe;
+.footer_item a {
+  color: #fefefe !important;
+  line-height: 120%;
 }
 .footer_copyright {
-  margin-top: 80px;
   display: flex;
   justify-content: space-between;
+  margin-top: 80px;
 }
 .footer_copyright_left h5 {
   color: #fefefe;
   width: 373px;
   margin-bottom: 0px;
+  align-items: flex-end;
 }
-.footer_copyrigt_right ul {
+.footer_copyrigt_right {
   display: flex;
   column-gap: 60px;
+  align-items: center;
 }
-.footer_copyrigt_right ul li a {
-  color: #fefefe;
-  width: 111px;
+.footer_copyrigt_right a {
+  color: #fefefe !important;
   margin-bottom: 0px;
 }
 /* =========================================footer part css end========================================== */
