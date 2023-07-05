@@ -405,6 +405,10 @@
     width: auto;
     font-size: 14px;
   }
+  .footer_content1 {
+    flex-direction: column;
+    column-gap: 0;
+  }
   .footer_item h6 {
     margin-bottom: 10px;
     text-align: start;
