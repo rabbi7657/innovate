@@ -596,7 +596,7 @@ nav .nav-item a {
 .about_us_info a {
   color: #221a2c;
 }
-.about_us_info p:last-child {
+.about_us_info h4 {
   line-height: 25px;
   margin-top: 10px;
 }
@@ -611,62 +611,74 @@ nav .nav-item a {
   padding: 100px 0px;
 }
 .also_like_custom_width {
-  width: 982px;
+  width: 990px;
 }
-.also_like_title {
+.also_like_title h5 {
+  color: #030314;
+  line-height: 65px;
+  letter-spacing: -2px;
+  width: 416px;
   margin-bottom: 64px;
-  text-align: justify;
 }
-.also_like_image img {
-  margin-bottom: 60px;
+.also_like_img img {
   border-radius: 20px;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
+  margin-bottom: 27px;
 }
-.also_like_image img :last-child {
-  margin-bottom: 0px;
+.also_like_news_info {
+  display: flex;
 }
-.also_like_content {
-  margin-bottom: 81px;
+.also_like_news_info h2 {
+  margin-right: 35px;
+  color: #1bbf00;
+  line-height: 22px;
+  letter-spacing: -1px;
 }
-.also_like_content:last-child {
-  margin-bottom: 0px;
+.also_like_news_info h3 {
+  margin-right: 8px;
+  line-height: 25px;
+  color: #726e9e;
 }
-.also_like_content h6 {
-  width: 523px;
+.also_like_news_info h4 {
+  margin-right: 24px;
+  line-height: 25px;
+  color: #726e9e;
+}
+.also_like_news_info h5 {
+  margin-right: 12px;
+  line-height: 25px;
+  color: #726e9e;
+}
+.also_like_news_info h6 {
+  line-height: 25px;
+  color: #726e9e;
+}
+.also_like_content p {
+  color: #141135;
   line-height: 55px;
   letter-spacing: -1.5px;
-  color: #141135;
+  width: 504px;
+  margin-top: 16px;
   margin-bottom: 24px;
 }
-.also_like_content a {
+.also_like_btn {
+  width: 27px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 0px 100px 100px 0px;
+  opacity: 0.30000001192092896;
+  background: #1bbf00;
+  position: relative;
+  top: -30px;
+  left: 77px;
+}
+.also_like_half_btn a {
+  text-transform: capitalize;
   line-height: 24px;
-  color: #141135;
-}
-.also_like_post {
-  display: flex;
-  flex-direction: row;
-}
-.also_like_post p {
-  color: #726e9e;
-  line-height: 25px;
-  margin-bottom: 16px;
-  column-gap: 24px;
-}
-.first_paragraph p {
-  color: #1bbf00;
-  margin-right: 35px;
-}
-.second_paragraph p {
-  margin-right: 8px;
-}
-.third_paragraph p {
-  margin-right: 27px;
-}
-.fourth_paragraph p {
-  margin-right: 11px;
+  color: #141135 !important;
 }
 /* =========================================also like css end========================================== */
 /* =========================================footer part css start========================================== */

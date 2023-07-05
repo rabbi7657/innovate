@@ -1,4 +1,4 @@
-@media (min-width: 320px) and (max-width: 576px) {
+@media (min-width: 320px) and (max-width: 575.98px) {
   /* ==============================custom button start==================================== */
   .custom_btn {
     padding: 10px 20px;
@@ -46,7 +46,7 @@
   .banner_heading h1 {
     width: auto;
     line-height: 48px;
-    margin-top: -130px;
+    margin-top: -100px;
     font-size: 42px;
   }
   .banner_info p {
@@ -270,7 +270,7 @@
   /* ====================================== right plan ============================= */
   .right_plan {
     height: 100%;
-    padding: 60px 0px;
+    padding: 40px 0px;
   }
   .right_plan_title h2 {
     font-size: 26px;
@@ -279,83 +279,97 @@
   }
   .right_plan_custom_card {
     width: auto;
+    margin-bottom: 20px;
+    padding: 40px 0px;
   }
   .right_plan_custom_card img {
     width: auto;
   }
+  .right_plan_custom_card h4 {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  .right_plan_custom_card p {
+    font-size: 14px;
+    line-height: 24px;
+  }
   /* ====================================== right plan end ============================= */
   /* ====================================== think start ============================= */
-  .think_about_title h5 {
+  .about_us {
+    padding: 40px 0px;
+  }
+  .about_us_title h2 {
     font-size: 32px;
+    width: auto;
   }
-  .think_about_title_content_img picture img {
-    top: 51px;
+  .about_us_client_img {
+    left: 94px;
+    top: -45px;
   }
-  .think_about_title_content_item {
+  .about_us_client_img img {
+    width: 100px;
+  }
+  .about_us_icon {
+    margin-top: 14px;
+    margin-bottom: 14px;
+  }
+  .about_us_rating {
     width: auto;
     height: 361px;
   }
-
-  .think_about_title_content_item .item_star {
-    padding-top: 65px;
-  }
-  .think_about_title_content_item p {
+  .about_us_info p {
     width: auto;
     line-height: 23px;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
     font-size: 12px;
   }
-  .think_about_title_content_item h6 {
+  .about_us_info a {
     line-height: 21px;
-    font-size: 22px;
+    font-size: 20px;
   }
-  .think_about_title_content_item h4 {
-    line-height: 23px;
-    font-size: 17px;
+  .about_us_info h4 {
+    line-height: 16px;
+    font-size: 12px;
   }
   /* ====================================== think  end ============================= */
   /* ====================================== like start  ============================= */
-  .like_title h5 {
+  .also_like_title h5 {
     line-height: 34px;
     margin-top: 48px;
     margin-bottom: 42px;
     font-size: 36px;
   }
-  .like_content_img {
+  .also_like_img {
     display: flex;
-    justify-content: center;
   }
-  .like_content_img picture img {
+  .also_like_img img {
     width: 298px;
   }
-  .like_custom_margin {
-    margin-top: 22px;
-  }
-  .like_news_info h2 {
+  .also_like_news_info h2 {
     margin-right: 13px;
   }
-  .like_news_info h3 {
+  .also_like_news_info h3 {
     margin-right: 3px;
     line-height: 21px;
     font-size: 13px;
   }
-  .like_news_info h4 {
+  .also_like_news_info h4 {
     margin-right: 10px;
     line-height: 22px;
     font-size: 13px;
   }
-  .like_news_info h5 {
+  .also_like_news_info h5 {
     margin-right: 7px;
     line-height: 25px;
     font-size: 13px;
   }
-  .like_news_info h6 {
+  .also_like_news_info h6 {
     line-height: 24px;
     font-size: 13px;
   }
-  .like_content_item p {
+  .also_like_content p {
     line-height: 33px;
-    width: auto;
+    width: 296px;
     margin-top: 5px;
     margin-bottom: 24px;
     font-size: 25px;
