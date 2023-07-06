@@ -194,7 +194,7 @@ nav .nav-item a {
 /* =========================================banner part css end========================================== */
 /* =========================================success_rate css start========================================== */
 .success_rate {
-  background-image: url(../images/success_rate/corner_img.png);
+  /* background-image: url(../images/success_rate/corner_img.png); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
