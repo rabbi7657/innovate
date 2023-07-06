@@ -78,50 +78,45 @@
   /* ====================================== banner end ============================= */
   /* ====================================== success_rate  start ============================= */
   .success_rate {
-    height: 1090px;
+    height: 100%;
     padding: 20px 0px;
   }
   .success_rate_images {
+    display: flex;
     flex-direction: column;
-    position: static;
     margin-top: 20px;
+    margin-bottom: 0px;
   }
   .success_rate_img1 img {
-    width: 175px;
+    width: 100%;
+    height: 250px;
     border: 2px solid #fff;
-    height: 180px;
+    margin-bottom: 30px;
   }
   .success_rate_img2 img {
-    height: 200px;
-    width: 190px;
+    width: 100%;
+    height: 250px;
     border: 3px solid #fff;
-    position: relative;
-    top: -40px;
-    left: 110px;
+    margin-bottom: 30px;
   }
   .success_rate_img3 img {
-    width: 150px;
-    position: relative;
-    top: -189px;
+    width: 100%;
+    height: 250px;
     border: 2px solid #fff;
+    margin-bottom: 30px;
+    margin-top: 0px;
   }
   .success_rate_img4 img {
-    width: 180px;
-    position: relative;
-    top: -220px;
+    width: 100%;
+    height: 250px;
     border: 3px solid #fff;
-    border-radius: 20px;
-    left: 96px;
-    height: 200px;
+    margin-bottom: 30px;
+    margin-top: 0px;
   }
   .success_rate_content {
     flex-direction: column;
-    top: -362px;
     text-align: center;
     justify-content: center;
-    margin-left: 24px;
-    padding: 0px;
-    margin-top: 184px;
   }
   .success_rate_content_item {
     border-bottom: 4px solid #d7d9dc;
@@ -157,6 +152,7 @@
     padding-bottom: 26px;
   }
   .choose_us_item p {
+    text-align: start;
     font-size: 14px;
     padding: 0px 0px;
     margin-left: 0px;
@@ -259,6 +255,8 @@
     font-size: 12px;
   }
   .we_create_img {
+    display: flex;
+    flex-direction: column;
     padding-bottom: 207px;
   }
   .we_create_1st_img img {
@@ -267,13 +265,13 @@
     border: 3px solid #fff;
   }
   .we_create_2nd_img img {
-    top: 190px;
-    left: 135px;
+    top: 200px;
+    left: 150px;
     border: 3px solid #fff;
   }
   .we_create_3rd_img img {
-    left: 0px;
-    top: 275px;
+    top: 295px;
+    left: 10px;
     width: 200px;
     border: 3px solid #fff;
   }
@@ -440,6 +438,439 @@
     width: auto;
     font-size: 8px;
     margin-bottom: 0px;
+  }
+  /* ====================================== footer end ============================= */
+}
+
+/* ==================================for iphone ============================================ */
+@media (min-width: 414px) and (max-width: 896px) {
+  /* ==============================custom button start==================================== */
+  .custom_btn {
+    padding: 10px 20px;
+    background-color: #1bbf00;
+    border-radius: 100px;
+    display: inline-block;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+  }
+  .custom_btn a {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #fff;
+  }
+  /* }=====================================custom button end================================ */
+  /* ====================================== navbar start============================= */
+  nav ul {
+    border: 1px solid #1bbf00;
+    margin-top: 10px;
+  }
+  nav ul li {
+    border-bottom: 1px solid #1bbf00;
+    width: 100%;
+    margin: auto;
+  }
+  nav ul li:last-child {
+    margin-right: 0px;
+    border-bottom: none;
+  }
+  nav ul li a {
+    text-align: center;
+  }
+  .navbar_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* ====================================== navbar end ============================= */
+  /* ====================================== banner start ============================= */
+  .banner_overlay {
+    height: 100%;
+    padding-bottom: 60px;
+  }
+  .banner_heading h1 {
+    width: auto;
+    line-height: 48px;
+    margin-top: -100px;
+    font-size: 42px;
+  }
+  .banner_info p {
+    width: auto;
+    line-height: 25px;
+    font-size: 14px;
+  }
+  .banner_btn {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner_btn .custom_btn {
+    padding: 10px 20px;
+  }
+  .banner_btn .custom_btn a {
+    font-size: 14px;
+  }
+  .banner_custom_btn2 {
+    margin-top: 10px;
+    padding: 8px 20px;
+  }
+  .banner_custom_btn2 a {
+    font-size: 14px;
+  }
+  .banner_btn .custom-btn {
+    margin-top: -5px;
+    margin-bottom: 39px;
+  }
+  /* ====================================== banner end ============================= */
+  /* ====================================== success_rate  start ============================= */
+  .success_rate {
+    height: 100%;
+    padding: 20px 0px;
+  }
+  .success_rate_images {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+  .success_rate_img1 img {
+    width: 100%;
+    height: 250px;
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+  }
+  .success_rate_img2 img {
+    width: 100%;
+    height: 250px;
+    border: 3px solid #fff;
+    margin-bottom: 30px;
+  }
+  .success_rate_img3 img {
+    width: 100%;
+    height: 250px;
+    border: 2px solid #fff;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .success_rate_img4 img {
+    width: 100%;
+    height: 250px;
+    border: 3px solid #fff;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+  .success_rate_content {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+  .success_rate_content_item {
+    border-bottom: 4px solid #d7d9dc;
+    border-right: 0px;
+    align-items: center;
+  }
+  .success_rate_content_item:last-child {
+    border-bottom: 0px;
+  }
+  .success_rate_content_item h2 {
+    font-size: 35px;
+    margin-bottom: -14px;
+  }
+  .success_rate_content_item h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  /* ====================================== success_rate end ============================= */
+  /* ======================================choose_us start ============================= */
+  .choose_us {
+    padding-top: 20px;
+  }
+  .custom_order2 {
+    order: 2;
+  }
+  .choose_us_item {
+    flex-direction: column;
+    width: auto;
+    padding: 20px 20px;
+  }
+  .choose_us_item img {
+    padding-top: 20px;
+    padding-bottom: 26px;
+  }
+  .choose_us_item p {
+    text-align: start;
+    font-size: 14px;
+    padding: 0px 0px;
+    margin-left: 0px;
+    line-height: 22px;
+    width: auto;
+  }
+  .choose_us_item:hover {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 10px 30px 60px 0px rgba(162, 169, 192, 0.15);
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+  }
+  .choose_us_info {
+    order: 1;
+    margin-left: 16px;
+  }
+  .choose_us_info h2 {
+    font-size: 30px;
+    margin-top: 24px;
+    text-align: start;
+  }
+  .choose_us_info p {
+    width: auto;
+    line-height: 25px;
+    margin-top: 13px;
+    margin-bottom: 28px;
+    font-size: 14px;
+  }
+  .choose_us_btn {
+    margin-bottom: 50px;
+  }
+  .choose_us_btn .custom-btn a {
+    font-size: 14px;
+  }
+
+  /* ======================================choose_us end ============================= */
+  /* ====================================== we do start ============================= */
+  .we_do {
+    padding: 60px 0px;
+    width: auto;
+  }
+  .we_do_info {
+    width: auto;
+    margin-left: 20px;
+  }
+  .we_do_info h3 {
+    font-size: 36px;
+    width: auto;
+    margin-bottom: 20px;
+  }
+  .we_do_info p {
+    font-size: 16px;
+    width: auto;
+    margin-bottom: 24px;
+  }
+  .we_do_btn {
+    left: 180px;
+  }
+  .we_do_custom_card {
+    width: auto;
+  }
+  .we_do_custom_card h3 {
+    font-size: 30px;
+    width: auto;
+  }
+  .we_do_custom_card p {
+    font-size: 16px;
+    width: auto;
+  }
+  /* ====================================== we do end ============================= */
+  /* ====================================== we_create start ============================= */
+  .we_create {
+    height: 1160px;
+    padding: 60px 0px;
+  }
+  .we_create_title h2 {
+    font-size: 32px;
+    width: auto;
+  }
+  .we_create_title p {
+    width: auto;
+    font-size: 14px;
+  }
+  .we_create_item {
+    width: auto;
+    column-gap: 20px;
+  }
+  .we_create_info h4 {
+    line-height: 0px;
+    font-size: 20px;
+    width: auto;
+  }
+  .we_create_info p {
+    width: auto;
+    line-height: 21px;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .we_create_custom_position {
+    position: relative;
+  }
+  .we_create_img {
+    display: flex;
+    padding-bottom: 100px;
+  }
+  .we_create_1st_img img {
+    width: 228px;
+    height: 274px;
+    border: 3px solid #fff;
+    margin-left: 36px;
+  }
+  .we_create_2nd_img img {
+    width: 162px;
+    height: 141px;
+    top: 235px;
+    left: 246px;
+    border: 3px solid #fff;
+  }
+  .we_create_3rd_img img {
+    width: 310px;
+    height: 261px;
+    left: 45px;
+    top: 328px;
+    border: 3px solid #fff;
+  }
+  /* ====================================== we_create end ============================= */
+  /* ====================================== right plan ============================= */
+  .right_plan {
+    height: 100%;
+    padding: 40px 0px;
+  }
+  .right_plan_title h2 {
+    font-size: 26px;
+    width: auto;
+    margin-bottom: 35px;
+  }
+  .right_plan_custom_card {
+    width: auto;
+    margin-bottom: 20px;
+    padding: 60px 0px;
+  }
+  .right_plan_custom_card img {
+    width: 100%;
+  }
+  .right_plan_custom_card h4 {
+    font-size: 30px;
+    line-height: 24px;
+  }
+  .right_plan_custom_card p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  /* ====================================== right plan end ============================= */
+  /* ====================================== about_us start ============================= */
+  .about_us {
+    padding: 40px 0px;
+  }
+  .about_us_title h2 {
+    font-size: 32px;
+    width: auto;
+  }
+  .about_us_rating {
+    width: 100%;
+  }
+  .about_us_client_img {
+    left: 34%;
+    top: -45px;
+  }
+  .about_us_client_img img {
+    width: 120px;
+  }
+  .about_us_icon {
+    margin-top: 40px;
+    margin-bottom: 14px;
+  }
+  /* ====================================== about_us  end ============================= */
+  /* ======================================also like part start============================ */
+  .also_like {
+    padding: 40px 0px;
+  }
+  .also_like_title h5 {
+    line-height: 34px;
+    font-size: 36px;
+    margin-bottom: 35px;
+  }
+  .also_like_custome_margin {
+    margin-bottom: 0px;
+  }
+  .also_like_img {
+    display: flex;
+  }
+  .also_like_img img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .also_like_news_info h2 {
+    margin-right: 13px;
+  }
+  .also_like_news_info h3 {
+    margin-right: 3px;
+    line-height: 21px;
+    font-size: 13px;
+  }
+  .also_like_news_info h4 {
+    margin-right: 10px;
+    line-height: 22px;
+    font-size: 13px;
+  }
+  .also_like_news_info h5 {
+    margin-right: 7px;
+    line-height: 25px;
+    font-size: 13px;
+  }
+  .also_like_news_info h6 {
+    line-height: 24px;
+    font-size: 13px;
+  }
+  .also_like_content {
+    margin-left: 10px;
+  }
+  .also_like_content p {
+    line-height: 33px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 24px;
+    font-size: 25px;
+  }
+  /* ======================================also like part end ============================= */
+  /* ====================================== footer start  ============================= */
+  footer {
+    height: 100%;
+    padding: 60px 0px;
+  }
+  .footer_custom_flex {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer_description p {
+    width: auto;
+    font-size: 14px;
+  }
+  .footer_content1 {
+    flex-direction: column;
+    column-gap: 0;
+  }
+  .footer_item h6 {
+    margin-bottom: 10px;
+    text-align: start;
+  }
+  .footer_item {
+    row-gap: 10px;
+  }
+  .footer_item a {
+    font-size: 12px;
+  }
+  .footer_item a:last-child {
+    margin-bottom: 30px;
+  }
+  .footer_copyright {
+    margin-top: 40px;
+  }
+  .footer_copyright_left h5 {
+    width: auto;
+    font-size: 8px;
+    margin-right: 50px;
+    align-items: flex-end;
+  }
+  .footer_copyrigt_right {
+    display: flex;
+    column-gap: 20px;
   }
   /* ====================================== footer end ============================= */
 }
